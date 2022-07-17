@@ -5,7 +5,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="bg-gray-200 w-screen  shadow-xl ">
+    <div className="bg-gray-200 w-full  shadow-2xl ">
       <div className="flex justify-between items-center">
         <div className="flex items-center ">
           <h2 className="text-3xl text-gray-800 font-bold px-4 py-4 hover:text-pink-700">

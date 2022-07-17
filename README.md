@@ -1,1 +1,1 @@
-Simple portfolio website with React JS & Tailwind CSS
+Simple portfolio website with React JS & Tailwind CSS.
