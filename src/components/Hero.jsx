@@ -9,7 +9,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="w-full  bg-zinc-200 flex flex-col justify-between items-center ">
+    <div className="w-full  bg-zinc-100 flex flex-col justify-between items-center ">
       <div className="grid  sm:grid-cols-2 max-w-[1400px] mx-auto my-8 ">
         <div className="order-last  py-8 px-6 flex flex-col justify-center mx-auto items-start">
           <div>
@@ -19,7 +19,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <button className=" text-white bg-indigo-600 md:w-[40%] w-[60%] rounded py-3 px-6  my-4">
+          <button className=" text-white bg-indigo-600 md:w-[40%] w-[60%] rounded py-3 px-6  my-4 hover:shadow-xl hover:border">
             Get Started
           </button>
         </div>
@@ -28,8 +28,8 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="mx-8 flex flex-col text-center shadow-2xl px-4 py-4  bg-zinc-200 bg-opacity-80
-         rounded-2xl my-8 border border-slate-200 md:w-[760px]   "
+        className="mx-8 flex flex-col text-center shadow-xl border px-4 py-4  bg-zinc-100 bg-opacity-80
+         rounded-2xl my-8   md:w-[760px]   "
       >
         <h1 className="text-3xl text-slate-600 font-bold">Services</h1>
         <p className="text-slate-500 ">
